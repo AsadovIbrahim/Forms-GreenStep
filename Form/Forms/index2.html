@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/style2.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Həyat Tərzi və Vərdişlər Sorğusu</h1>
+        <p>Həyat tərzinizi daha yaxşı başa düşmək üçün bu sorğunu tamamlayın.</p>
+        
+        <form id="survey-form">
+            <div class="categories">
+                <div class="category">
+                    <label for="transport">Nəqliyyat</label>
+                    <select id="transport">
+                        <option value="benzin">Benzin</option>
+                        <option value="dizel">Dizel</option>
+                    </select>
+                </div>
+                
+                <div class="category">
+                    <label for="electricity">Elektrik Enerjisi</label>
+                    <select id="electricity">
+                        <option value="tebii-qaz">Təbii qaz</option>
+                    </select>
+                </div>
+
+                <div class="category">
+                    <label for="food">Qida</label>
+                    <select id="food">
+                        <option value="mal-eti">Mal əti</option>
+                        <option value="toyuq-eti">Toyuq əti</option>
+                        <option value="sud">Süd</option>
+                        <option value="terevez">Tərəvəz</option>
+                        <option value="meyve">Meyvə</option>
+                    </select>
+                </div>
+
+                <div class="category">
+                    <label for="shopping">Alış-Veriş</label>
+                    <select id="shopping">
+                        <option value="smartfon">Smartfon</option>
+                        <option value="laptop">Laptop</option>
+                        <option value="koynek">Köynək</option>
+                        <option value="televizor">Televizor</option>
+                    </select>
+                </div>
+
+                <div class="category">
+                    <label for="kitchen-appliances">Mətbəx Cihazları</label>
+                    <select id="kitchen-appliances">
+                        <option value="soyuducu">Soyuducu</option>
+                        <option value="tozsoran">Tozsoran</option>
+                    </select>
+                </div>
+
+                <div class="category">
+                    <label for="plastic-use">Plastik İstifadəsi</label>
+                    <select id="plastic-use">
+                        <option value="plastik-torba">Plastik torba</option>
+                        <option value="plastik-suse">Plastik şüşə</option>
+                        <option value="plastik-qab">Plastik qab</option>
+                    </select>
+                </div>
+
+                <div class="category">
+                    <label for="plane-travel">Təyyarə Səyahəti</label>
+                    <select id="plane-travel">
+                        <option value="tez-yol">Təyyarə ilə səyahət (Uçuş saatları)</option>
+                    </select>
+                </div>
+
+                <div class="category">
+                    <label for="social-media">Sosial Media İstifadəsi</label>
+                    <select id="social-media">
+                        <option value="social-time">Sosial mediada vaxt keçirmə (Saatlarla)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="submit-button">
+                <button type="submit">Sorğunu tamamla</button>
+            </div>
+        </form>
+
+        <div class="form-container" id="result-container"></div>
+    </div>
+    
+    <script src="../Scripts/script2.js"></script>
+</body>
+</html>

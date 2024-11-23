@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vərdişlər Sorğusu</title>
+  <link rel="stylesheet" href="../Styles/style.css">
+</head>
+<body>
+  <div class="survey-container">
+    <h1>Həyat Tərzi və Vərdişlər Sorğusu</h1>
+    <p>Həyat tərzinizi daha yaxşı başa düşmək üçün bu sorğunu tamamlayın.</p>
+    <form>
+      <!-- Smoking -->
+      <div class="question">
+        <label>Gündə neçə dəfə siqaret çəkirsiniz?</label>
+        <input type="number" id="smoking-frequency" name="smoking-frequency" min="0" max="100" placeholder="Məsələn: 5 dəfə">
+      </div>
+
+      <!-- Health Habits -->
+      <div class="question">
+        <label>Həftədə neçə dəfə idman edirsiniz?</label>
+        <input type="number" id="exercise-frequency" name="exercise-frequency" min="0" max="14" placeholder="Məsələn: 3 dəfə">
+      </div>
+
+      <div class="question">
+        <label>Gündə neçə litr su içirsiniz?</label>
+        <input type="number" id="water-intake" name="water-intake" min="0" max="10" step="0.1" placeholder="Məsələn: 2.5 litr">
+      </div>
+
+      <!-- Social Habits -->
+      <div class="question">
+        <label>Ayda neçə dəfə ictimai tədbirlərdə iştirak edirsiniz?</label>
+        <input type="number" id="social-events" name="social-events" min="0" max="30" placeholder="Məsələn: 2 dəfə">
+      </div>
+
+      <!-- Travel Habits -->
+      <div class="question">
+        <label>Həftədə neçə dəfə şəxsi avtomobil istifadə edirsiniz?</label>
+        <input type="number" id="car-usage" name="car-usage" min="0" max="7" placeholder="Məsələn: 4 dəfə">
+      </div>
+
+      <div class="question">
+        <label>Ayda neçə dəfə təyyarə ilə səyahət edirsiniz?</label>
+        <input type="number" id="plane-trips" name="plane-trips" min="0" max="30" placeholder="Məsələn: 1 dəfə">
+      </div>
+
+      <!-- Technology Habits -->
+      <div class="question">
+        <label>Gündə neçə saat sosial mediadan istifadə edirsiniz?</label>
+        <input type="number" id="social-media-usage" name="social-media-usage" min="0" max="24" placeholder="Məsələn: 3 saat">
+      </div>
+
+      <!-- Submit -->
+      <div class="submit-button">
+        <button type="submit">Sorğunu tamamla</button>
+      </div>
+    </form>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>
